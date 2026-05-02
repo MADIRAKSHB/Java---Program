@@ -11,7 +11,7 @@ class samp{
     int a=30;
     static int b=21;
     void add(){
-        final int c=10;
+        final int c=6;
         int a=10;
         System.out.println(a);
         System.out.println(c);

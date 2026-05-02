@@ -13,13 +13,21 @@ class todo1{
 void mn(String b){
     if(b.isBlank()){
 
+<<<<<<< HEAD
         System.out.println("String is empty");
+=======
+        System.out.println("Enter your task: ");
+>>>>>>> 7b2352d8e564348dd534af68226721b4f0b2c784
         return;
     }
     else{
         System.out.println("Your task is: "+b);
         System.out.println("Thank you for entering");
+<<<<<<< HEAD
 }
+=======
+    }
+>>>>>>> 7b2352d8e564348dd534af68226721b4f0b2c784
 }
 
 }
