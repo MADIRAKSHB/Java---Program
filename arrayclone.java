@@ -1,4 +1,4 @@
-
+import java.util.*;
 
 class arrayclone
 {
@@ -10,16 +10,16 @@ class arrayclone
         {
             System.out.println(b[i]);
         }
-        // int b[]=a.clone();
-        // for(int i=0;i<b.length;i++)
-        // {
-        //     System.out.println(b[i]);
-        // }
+        int c[]=a.clone();
+        for(int i=0;i<c.length;i++)
+        {
+            System.out.println(c[i]);
+        }
        
-    //     b=Arrays.copyOf(a,5);
-    //     for(int i=0;i<b.length;i++)
-    //     {
-    //     System.out.println(b[i]);
-    // }
+        b=Arrays.copyOf(a,5);
+        for(int i=0;i<b.length;i++)
+        {
+        System.out.println(b[i]);
+    }
 }
 }

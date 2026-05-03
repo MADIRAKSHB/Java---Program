@@ -10,6 +10,8 @@
         System.out.println(a);
         a.remove(2);
         System.out.println(a);
-
+        System.out.println(a.contains(3));
+        a.sort(null);
+        System.out.println(a);
     }
 }
