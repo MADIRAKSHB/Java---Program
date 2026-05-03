@@ -44,9 +44,6 @@ import java.util.*;
         double randomNum = Math.random();
         System.out.println("Random number: "+randomNum);
         
-       
-
-
 
     }
 }
